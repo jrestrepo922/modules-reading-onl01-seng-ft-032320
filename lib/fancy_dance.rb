@@ -11,5 +11,5 @@ module FancyDance
     def frontflip
       "I'm a whole class of MOFO's jumping"
     end
-  end 
+  end
 end
