@@ -2,6 +2,9 @@
 require_relative './dance_module.rb'
 
 module FancyDance
+  include Dance 
+  extend  metadata
+  
   module InstanceMethods              # you "include" these instance methods
     def backflip
       "the instance method just did a backflip"
