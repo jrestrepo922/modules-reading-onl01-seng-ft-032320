@@ -1,5 +1,5 @@
 
-require_relative './dance_module.rb'
+#require_relative './dance_module.rb'
 
 module FancyDance
   module InstanceMethods              # you "include" these instance methods
